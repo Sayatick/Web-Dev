@@ -1,0 +1,61 @@
+body {
+    color: rgb(0, 0, 39);
+    background-color: #86be84;
+}
+
+h1 {
+    font-size: 80px;
+    font-family: 'Courier New', Courier, monospace
+}
+
+#Web1 {
+    color:rgb(194, 245, 77);
+    font-size: 1.5em;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.Web2 {
+    color:rgb(116, 46, 92);
+    font-size: 25px;    
+}
+
+.Web3 {
+    text-align: center;
+    text-decoration: underline;
+    color: blueviolet;
+    font-size: 30px;
+    font-family: fantasy;
+    border-top: 3px solid #000;
+    background-color: #d0ff00;
+}
+
+.Web4 {
+    color: blue;
+}
+
+.Web5 {
+    width: 100px;
+    height: 200px;
+    overflow: auto;
+    margin: 30px 10px;
+    border: 1px solid rgb(145, 0, 0);
+    padding: 15px;
+}
+
+#img1 {
+    width: 250px;
+    position: absolute;
+    top: 400px;
+    left: 900px;
+}
+
+#img2 {
+    position: relative;
+    top: 30px;
+    left: 50px;
+}
+
+a:hover {
+    background-color: rgb(134, 134, 172);
+}
