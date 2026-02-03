@@ -1,290 +1,340 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body{
-    font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-    background: #f6f8fa;
-    color: #24292f;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  background: #f6f8fa;
+  color: #24292f;
 }
-  
+
 .hero{
-    max-width: 1120px;
-    margin: 80px auto 40px;
-    text-align: center;
-    padding: 0 16px;
+  max-width: 1120px;
+  margin: 80px auto 40px;
+  text-align: center;
+  padding: 0 16px;
 }
-  
+
 .hero h1{
-    font-size: 54px;
-    font-weight: 800;
-    letter-spacing: -1px;
-    margin-bottom: 14px;
+  font-size: 54px;
+  font-weight: 800;
+  letter-spacing: -1px;
+  margin-bottom: 14px;
 }
-  
+
 .heroText{
-    max-width: 760px;
-    margin: 0 auto 18px;
-    color: #57606a;
-    font-size: 13px;
-    line-height: 1.6;
+  max-width: 760px;
+  margin: 0 auto 18px;
+  color: #57606a;
+  font-size: 13px;
+  line-height: 1.6;
 }
-  
+
 .btn{
-    height: 40px;
-    padding: 0 16px;
-    border-radius: 10px;
-    border: 1px solid #d0d7de;
-    background: #ffffff;
-    font-weight: 700;
-    cursor: pointer;
+  height: 40px;
+  padding: 0 16px;
+  border-radius: 10px;
+  border: 1px solid #d0d7de;
+  background: #ffffff;
+  font-weight: 700;
+  cursor: pointer;
 }
-  
+
 .btnDark{
-    background: #24292f;
-    color: white;
-    border: none;
+  background: #24292f;
+  color: white;
+  border: none;
 }
-  
+
 .btnLight{
-    background: #ffffff;
+  background: #ffffff;
 }
-  
+
 .btnDarkWide{
-    background: #24292f;
-    color: white;
-    border: none;
-    width: 100%;
+  background: #24292f;
+  color: white;
+  border: none;
+  width: 100%;
 }
-  
+
 .btnOutline{
-    width: 100%;
-    background: #ffffff;
-    border: 1px solid #d0d7de;
-    color: #24292f;
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid #d0d7de;
+  color: #24292f;
 }
-  
+
 .pricing{
-    max-width: 1120px;
-    margin: 0 auto;
-    padding: 0 16px 40px;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 16px 40px;
 }
-  
+
 .pricingRow{
-    display: flex;
-    gap: 22px;
-    align-items: stretch;
+  display: flex;
+  gap: 22px;
+  align-items: stretch;
 }
-  
+
 .planCard{
-    flex: 1;
-    background: #ffffff;
-    border: 1px solid #d0d7de;
-    border-radius: 14px;
-    padding: 22px;
-    box-shadow: 0 8px 24px rgba(140,149,159,0.2);
-    min-height: 520px;
+  flex: 1;
+  background: #ffffff;
+  border: 1px solid #d0d7de;
+  border-radius: 14px;
+  padding: 22px;
+  box-shadow: 0 8px 24px rgba(140,149,159,0.2);
+  min-height: 520px;
 }
-  
+
 .planName{
-    font-size: 20px;
-    font-weight: 800;
-    margin-bottom: 6px;
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 6px;
 }
-  
+
 .planDesc{
-    color: #57606a;
-    font-size: 12px;
-    margin-bottom: 18px;
-    line-height: 1.4;
+  color: #57606a;
+  font-size: 12px;
+  margin-bottom: 18px;
+  line-height: 1.4;
 }
 
 .priceLine{
-    display: flex;
-    align-items: baseline;
-    gap: 6px;
-    margin-bottom: 14px;
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  margin-bottom: 14px;
 }
-  
+
 .dollar{
-    font-size: 18px;
-    color: #57606a;
-    font-weight: 700;
+  font-size: 18px;
+  color: #57606a;
+  font-weight: 700;
 }
-  
+
 .priceNum{
-    font-size: 44px;
-    font-weight: 900;
-    letter-spacing: -1px;
+  font-size: 44px;
+  font-weight: 900;
+  letter-spacing: -1px;
 }
-  
+
 .priceUnit{
-    font-size: 12px;
-    font-weight: 800;
+  font-size: 12px;
+  font-weight: 800;
 }
-  
+
 .pricePer{
-    font-size: 12px;
-    color: #57606a;
+  font-size: 12px;
+  color: #57606a;
 }
-  
+
 .list{
-    margin-top: 14px;
-    padding-left: 18px;
-    color: #24292f;
-    font-size: 12px;
-    line-height: 1.75;
-  }
-  
+  margin-top: 14px;
+  padding-left: 18px;
+  color: #24292f;
+  font-size: 12px;
+  line-height: 1.75;
+}
 
 .miniTitle{
-    margin-top: 18px;
-    font-size: 10px;
-    font-weight: 800;
-    color: #57606a;
-    letter-spacing: 0.6px;
+  margin-top: 18px;
+  font-size: 10px;
+  font-weight: 800;
+  color: #57606a;
+  letter-spacing: 0.6px;
 }
-  
+
 .miniList{
-    margin-top: 8px;
-    padding-left: 18px;
-    font-size: 12px;
-    color: #0969da;
-    line-height: 1.7;
+  margin-top: 8px;
+  padding-left: 18px;
+  font-size: 12px;
+  color: #0969da;
+  line-height: 1.7;
 }
 
-  .planEnterprise{
-    border: 2px solid #0969da;
-    position: relative;
-    padding-top: 44px;
-  }
-  
+.planEnterprise{
+  border: 2px solid #0969da;
+  position: relative;
+  padding-top: 44px;
+}
+
 .topBar{
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
-    height: 32px;
-    background: #0969da;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  height: 32px;
+  background: #0969da;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
 }
-  
+
 .badge{
-    position: absolute;
-    top: 7px;
-    left: 50%;
-    transform: translateX(-50%);
-    background: #0969da;
-    color: white;
-    font-size: 11px;
-    padding: 5px 12px;
-    border-radius: 999px;
-    font-weight: 800;
+  position: absolute;
+  top: 7px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #0969da;
+  color: white;
+  font-size: 11px;
+  padding: 5px 12px;
+  border-radius: 999px;
+  font-weight: 800;
 }
-  
+
 .smallText{
-    font-size: 11px;
-    color: #57606a;
-    margin-bottom: 6px;
-}
-  
-  .twoBtns{
-    display: flex;
-    gap: 10px;
-    margin-bottom: 6px;
+  font-size: 11px;
+  color: #57606a;
+  margin-bottom: 6px;
 }
 
-  @media (max-width: 900px){
-    .hero h1{ font-size: 34px; }
-    .pricingRow{ flex-direction: column; }
-    .addonGrid{ grid-template-columns: 1fr; }
-}
-  
-  .topbar{
-    height: 64px;
-    background: #ffffff;
-    border-bottom: 1px solid #d0d7de;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 18px;
-}
-  
-  .topbarLeft{
-    display: flex;
-    align-items: center;
-    gap: 14px;
-}
-  
-.ghLogo{
-    width: 28px;
-    height: 28px;
-    border-radius: 50%;
-    object-fit: cover;
-    cursor: pointer;
-}
-  
-  
-.nav{
-    display: flex;
-    gap: 14px;
-}
-  
-.nav a{
-    text-decoration: none;
-    color: #24292f;
-    font-size: 13px;
-}
-  
-.topbarRight{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-  
-.search{
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    border: 1px solid #d0d7de;
-    background: #f6f8fa;
-    border-radius: 8px;
-    padding: 6px 10px;
-}
-  
-  .search input{
-    border: none;
-    outline: none;
-    background: transparent;
-    width: 180px;
-    font-size: 12px;
+.twoBtns{
+  display: flex;
+  gap: 10px;
+  margin-bottom: 6px;
 }
 
-.searchIcon{
-    font-size: 12px;
-    color: #57606a;
+.addons{
+  max-width: 1120px;
+  margin: 0 auto 80px;
+  padding: 0 16px;
 }
-  
-.link{
-    text-decoration: none;
-    color: #24292f;
-    font-size: 13px;
+
+.addons h2{
+  font-size: 28px;
+  font-weight: 900;
+  margin-bottom: 6px;
 }
-  
-.btnSmall{
-    height: 32px;
-    padding: 0 12px;
-    border-radius: 8px;
-    border: 1px solid #d0d7de;
-    background: white;
-    font-weight: 700;
-    cursor: pointer;
+
+.addonsText{
+  color: #57606a;
+  font-size: 13px;
+  margin-bottom: 16px;
 }
-  
+
+.addonGrid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.addonCard{
+  background: #ffffff;
+  border: 1px solid #d0d7de;
+  border-radius: 14px;
+  padding: 16px;
+}
+
+.addonCard h4{
+  font-size: 14px;
+  font-weight: 900;
+  margin-bottom: 6px;
+}
+
+.addonCard p{
+  font-size: 12px;
+  color: #57606a;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.addonCard a{
+  text-decoration: none;
+  color: #0969da;
+  font-weight: 800;
+  font-size: 12px;
+}
+
 @media (max-width: 900px){
-    .nav{ display:none; }
-    .search input{ width: 120px; }
+  .hero h1{ font-size: 34px; }
+  .pricingRow{ flex-direction: column; }
+  .addonGrid{ grid-template-columns: 1fr; }
+}
+
+.topbar{
+  height: 64px;
+  background: #ffffff;
+  border-bottom: 1px solid #d0d7de;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 18px;
+}
+
+.topbarLeft{
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.ghLogo{
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+
+.nav{
+  display: flex;
+  gap: 14px;
+}
+
+.nav a{
+  text-decoration: none;
+  color: #24292f;
+  font-size: 13px;
+}
+
+.topbarRight{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.search{
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  border: 1px solid #d0d7de;
+  background: #f6f8fa;
+  border-radius: 8px;
+  padding: 6px 10px;
+}
+
+.search input{
+  border: none;
+  outline: none;
+  background: transparent;
+  width: 180px;
+  font-size: 12px;
+}
+ghLogo
+.searchIcon{
+  font-size: 12px;
+  color: #57606a;
+}
+
+.link{
+  text-decoration: none;
+  color: #24292f;
+  font-size: 13px;
+}
+
+.btnSmall{
+  height: 32px;
+  padding: 0 12px;
+  border-radius: 8px;
+  border: 1px solid #d0d7de;
+  background: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+@media (max-width: 900px){
+  .nav{ display:none; }
+  .search input{ width: 120px; }
 }
