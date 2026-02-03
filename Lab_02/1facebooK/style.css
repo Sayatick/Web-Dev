@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+}
+  
+.main {
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 80px;
+}
+  
+.container {
+    width: 980px;
+    display: flex;
+    justify-content: space-between;
+}
+  
+.left h1 {
+    color: #1877f2;
+    font-size: 64px;
+    margin-bottom: 20px;
+}
+  
+.left p {
+    font-size: 24px;
+    width: 400px;
+}
+  
+.right {
+    width: 400px;
+}
+  
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+  
+.card input {
+    width: 100%;
+    height: 45px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+  
+.login {
+    width: 100%;
+    height: 45px;
+    background: #1877f2;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+  
+.create {
+    background: #42b72a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 16px;
+}
+  
+.forgot {
+    display: block;
+    color: #1877f2;
+    margin: 10px 0;
+    font-size: 14px;
+    text-decoration: none;
+}
+  
+hr {
+    margin: 15px 0;
+}
+  
+.page {
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: center;
+}
+
+footer {
+    background: #fff;
+    padding: 20px 0;
+    font-size: 12px;
+    color: #737373;
+}
+  
+.footer-block {
+    max-width: 980px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.footer-block a {
+    margin-right: 10px;
+    color: #737373;
+    text-decoration: none;
+}
+  
+.footer-block a:hover {
+    text-decoration: underline;
+}
+
+.plus {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 18px;
+
+    border: 1px solid #ccd0d5;
+
+    font-size: 16px;
+    font-weight: bold;
+    color: #4b4f56;
+}
+
+hr {
+    color: #f0f2f5;
+}
+
+  footer hr {
+    max-width: 980px;
+    margin: 10px auto;
+}
+  
+.copy {
+    max-width: 980px;
+    margin: 10px auto 0;
+}  
+
+.footer-block a {
+    margin-bottom: 5px;
+}
