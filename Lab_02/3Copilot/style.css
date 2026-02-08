@@ -24,6 +24,15 @@ body{
   margin-bottom: 14px;
 }
 
+.btnnn {
+  color: #000000;
+  transition: 2s ease-out 2s;
+}
+
+.btnnn:hover {
+  color: #0969da;
+}
+
 .heroText{
   max-width: 760px;
   margin: 0 auto 18px;
