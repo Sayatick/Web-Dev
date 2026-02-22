@@ -1,0 +1,31 @@
+<div class="card">
+  <div class="image-wrap" (click)="openKaspi()">
+    <img class="main-image" [src]="mainImage" [alt]="product.name" loading="lazy" />
+    <div class="badge">{{ product.rating }}</div>
+  </div>
+
+  <div class="thumbs" *ngIf="product.images.length">
+    <button class="thumb" *ngFor="let img of product.images" (click)="setMainImage(img)" type="button">
+      <img [src]="img" [alt]="product.name" loading="lazy" />
+    </button>
+  </div>
+
+  <div class="content">
+    <h3 class="title">{{ product.name }}</h3>
+    <p class="desc">{{ product.description }}</p>
+
+    <div class="meta">
+      <div class="price">{{ product.price | number }} ₸</div>
+      <div class="stars" aria-label="rating">
+        <span *ngFor="let _ of [].constructor(stars().full)">★</span>
+        <span *ngIf="stars().half">☆</span>
+      </div>
+    </div>
+
+    <div class="actions">
+      <button class="btn" (click)="openKaspi()" type="button">Open Kaspi</button>
+      <button class="btn" (click)="shareWhatsApp()" type="button">WhatsApp</button>
+      <button class="btn" (click)="shareTelegram()" type="button">Telegram</button>
+    </div>
+  </div>
+</div>
