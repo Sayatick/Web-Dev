@@ -2,11 +2,12 @@
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "version": 1,
   "cli": {
-    "packageManager": "npm"
+    "packageManager": "npm",
+    "analytics": "6ae676c9-c8d0-4d7d-9b15-83761c95c701"
   },
   "newProjectRoot": "projects",
   "projects": {
-    "if": {
+    "online-store": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -61,10 +62,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "if:build:production"
+              "buildTarget": "online-store:build:production"
             },
             "development": {
-              "buildTarget": "if:build:development"
+              "buildTarget": "online-store:build:development"
             }
           },
           "defaultConfiguration": "development"

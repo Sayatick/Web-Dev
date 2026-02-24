@@ -1,0 +1,11 @@
+<section class="grid" *ngIf="products.length > 0">
+  <app-product-card
+    *ngFor="let product of products"
+    [product]="product"
+    (delete)="onDelete($event)"
+  ></app-product-card>
+</section>
+
+<div *ngIf="products.length === 0" style="margin-top: 12px; opacity: 0.7;">
+  No products in this category
+</div>
