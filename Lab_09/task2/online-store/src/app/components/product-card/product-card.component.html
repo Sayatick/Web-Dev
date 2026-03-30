@@ -1,0 +1,35 @@
+<div class="card" [ngClass]="{'liked-5': getLikeLevel() === 1, 'liked-10': getLikeLevel() === 2, 'liked-15': getLikeLevel() === 3}">
+  <div class="image-wrap" (click)="openKaspi()">
+    <img class="main-image" [src]="mainImage" [alt]="product.name" loading="lazy" />
+    <div class="badge">{{ product.rating }}</div>
+  </div>
+
+  <div class="thumbs" *ngIf="product.images.length">
+    <button class="thumb" *ngFor="let img of product.images" (click)="setMainImage(img)" type="button">
+      <img [src]="img" [alt]="product.name" loading="lazy" />
+    </button>
+  </div>
+
+  <div class="content">
+    <h3 class="title">{{ product.name }}</h3>
+    <p class="desc">{{ product.description }}</p>
+
+    <div class="meta">
+      <div class="price">{{ product.price | number }} ₸</div>
+      <div class="stars" aria-label="rating">
+        <span *ngFor="let _ of [].constructor(stars().full)">★</span>
+        <span *ngIf="stars().half">☆</span>
+      </div>
+    </div>
+
+    <div class="actions">
+      <button class="btn" (click)="openKaspi()" type="button">Open Kaspi</button>
+      <button class="btn" (click)="shareWhatsApp()" type="button">WhatsApp</button>
+      <button class="btn" (click)="shareTelegram()" type="button">Telegram</button>
+    
+      <button class="btn" (click)="like()" type="button">❤️ {{ product.likes }}</button>
+      <button class="btn danger" (click)="deleteProduct()" type="button">🗑 Delete</button>
+    </div>
+    
+  </div>
+</div>
